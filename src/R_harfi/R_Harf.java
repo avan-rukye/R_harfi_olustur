@@ -13,6 +13,7 @@ public class R_Harf {
                 // Sağ dikey çizgi
                 else if (j == width - 1 && i > 0 && i < height / 2) {
                     System.out.print("*");
+
                 }
                 // Sağ alt diyagonal çizgi
                 else if (i > height / 2 && i - j == height / 2 - 1) {
