@@ -6,6 +6,7 @@ public class R_Harf {
 
         for (int i = 0; i < height; i++) {
             for (int j = 0; j < width; j++) {
+
                 // İlk sütun veya üst ve orta yatay çizgiler
                 if (j == 0 || (i == 0 || i == height / 2) && j < width - 1) {
                     System.out.print("*");
