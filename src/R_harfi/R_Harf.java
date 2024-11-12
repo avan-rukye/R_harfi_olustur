@@ -24,6 +24,8 @@ public class R_Harf {
                 else {
                     System.out.print(" ");
                 }
+
+
             }
             System.out.println();
         }
